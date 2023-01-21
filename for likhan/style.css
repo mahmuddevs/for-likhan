@@ -1,0 +1,42 @@
+.menu-1{
+    display: fle;
+}
+.menu-1 ul {
+    list-style: none;
+    margin: 0;
+}
+
+
+.menus{
+    display: flex;
+    gap: 4em;
+    
+}
+
+.wrapper{
+    display: flex;
+    margin: 0 15vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(max-width:980px){
+    .wrapper h1{
+        width: 100%;
+    }
+    .wrapper{
+        margin: 0 5vw;
+        
+    }
+    .menus{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+}
+
+@media(max-width: 782px){
+    .menus{
+        flex-basis:500px;
+    }
+}
